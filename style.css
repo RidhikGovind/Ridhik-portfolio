@@ -1,311 +1,272 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    max-width: 100vw;
-    height: 100vh;
-    font-family: 'Oxygen', sans-serif;
+  max-width: 100vw;
+  height: 100vh;
+  font-family: "Oxygen", sans-serif;
 }
 
-
 .home {
-    background-color: #1e2124;
-    width: 100%;
-    padding: 3em 2em 15em 2em;
-    color: #fbf7f5;
-    font-weight: 900;
-
+  background-color: #1e2124;
+  width: 100%;
+  padding: 3em 2em 15em 2em;
+  color: #fbf7f5;
+  font-weight: 900;
 }
 
 .introOne {
-    font-size: 2em;
-    text-align: left;
-    margin-left: 30px;
-    position: relative;
-    top: 85px;
-    width: 50%;
+  font-size: 2em;
+  text-align: left;
+  margin-left: 30px;
+  position: relative;
+  top: 85px;
+  width: 50%;
 }
 
 .introTwo {
-    position: relative;
-    top: 105px;
-   margin-left: 30px;
-    display: flex;
-    font-size: 1.3em
+  position: relative;
+  top: 105px;
+  margin-left: 30px;
+  display: flex;
+  font-size: 1.3em;
 }
 
 .introOne .hello {
-    font-size: 2.1em;
+  font-size: 2.1em;
 }
 
 .name {
-    background-color: #7289da;
-   font-weight: 900
+  background-color: #7289da;
+  font-weight: 900;
 }
 
 .angle-down {
-    position: relative;
-    text-align: center;
-
+  position: relative;
+  text-align: center;
 }
 
 .angle-down i {
-    position: absolute;
-    top: 500px;
-    animation: move 3s infinite;
-
+  position: absolute;
+  top: 500px;
+  animation: move 3s infinite;
 }
 
 @keyframes move {
-    0% {
-        top: 180px;
-    }
+  0% {
+    top: 180px;
+  }
 
-    50% {
-        top: 160px;
-    }
+  50% {
+    top: 160px;
+  }
 
-    100% {
-        top: 180px;
-    }
+  100% {
+    top: 180px;
+  }
 }
 
 .about {
-
-    
-    width: 100%;
-    color: white;
-    padding: 20px;
-    font-size: 1.2em;
-    background-color: #282b30;
-    line-height: 1.8em;
+  width: 100%;
+  color: white;
+  padding: 20px;
+  font-size: 1.2em;
+  background-color: #282b30;
+  line-height: 1.8em;
 }
 
 .about h2 {
-    text-align: center;
-    
+  text-align: center;
 }
 
 .about p {
-    padding-top: 80px;
-    padding-bottom: 30px;
-    margin: 0;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  margin: 0;
 }
 
 .palm {
-    padding: 0;
-    margin: 0;
-    width: 30px;
-    height: 30px;
-    position: relative;
-    top: 4px;
-    left: -4px;
+  padding: 0;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 4px;
+  left: -4px;
 }
 
 .skills {
-    width: 100%;
-    background-color: #36393e;
+  width: 100%;
+  background-color: #36393e;
 }
 
 .skills h2 {
-    color: white;
-    font-size: 2em;
-    padding: 30px 0px;
-    text-align: center;
-
+  color: white;
+  font-size: 2em;
+  padding: 30px 0px;
+  text-align: center;
 }
 
 .skill-icons {
-    display: flex;
-    justify-content: space-between;
-    padding: 25px;
-    
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
 }
 
-@media(max-width: 400px){
-    .skill-icons{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap: 15px 15px ;
-    }
+@media (max-width: 400px) {
+  .skill-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px 15px;
+  }
 }
 
 .skill-icons i {
-    cursor: pointer;
-    color: white;
-
+  cursor: pointer;
+  color: white;
 }
-.skill-icons div{
-    color: white;
-    text-align: center;
+.skill-icons div {
+  color: white;
+  text-align: center;
 }
-.icons{
-    display: block;
-}
-
-.projects{ 
-    background-color: #424549;   
+.icons {
+  display: block;
 }
 
-.projects h2{
-    color: white;
-    text-align: center;
-    font-size: 1.8em;
-    padding: 20px 0px;
-    margin-bottom: 15px;
+.projects {
+  background-color: #424549;
 }
 
-@media (min-width: 1069px){
-    .project-list{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        
-    }
- }
-
- @media (max-width: 1069px)  {
-    .project-list{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);  
-    }
- }
-
- @media(max-width: 610px) {
-    .project-list{
-        display: grid;
-        grid-template-columns: 1fr;
-      
-    }
- }
-
-
-.project-list div{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    
-    
-}
-.project-list div img{
-    max-width: 70%;
-    margin: 70px 0px;
-    border-radius: 10px;
-    
-    
-
-}
-.project-list div img:hover{
-    transform: scale(1.05);
-    transition: 0.4s ease all;
-    cursor: pointer;
+.projects h2 {
+  color: white;
+  text-align: center;
+  font-size: 1.8em;
+  padding: 20px 0px;
+  margin-bottom: 15px;
 }
 
-
-.project-list .a-part{
-
-    position: absolute;
+@media (min-width: 1069px) {
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
-.a-part a{
-    font-family: 'Montserrat', sans-serif;
-    background-color: none;
-    color: 	white;
-    width: 135px;
-    height: 50px;
-    margin: 5px;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    border: 2px solid rgba(233,233,233,0.4);
-    border-radius: 5px;
-    text-decoration: none;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    position: relative;
-    
+@media (max-width: 1069px) {
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-.source-code-btn:after{
-    content: "SOURCE CODE";
-    position: absolute;
-    transition: 0.5s ease all;
-   
+@media (max-width: 610px) {
+  .project-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
-.live-demo-btn:after{
-    content: "LIVE DEMO";
-    position: absolute;
-    transition: 0.5s ease all;
-
+.project-list div {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.project-list div img {
+  max-width: 70%;
+  margin: 70px 0px;
+  border-radius: 10px;
+}
+.project-list div img:hover {
+  transition: 0.4s ease all;
 }
 
-.bg{
-    padding:0;
-    margin:0;
-    background-color: rgba(233,233,233,0.4);
-    width: 0px;
-    height: 100%;
-    transform: skewX(45deg);
-    transition: 0.5s ease all;
-       
+.project-list .a-part {
+  position: absolute;
 }
 
-.a-part a:hover .bg{
-    width: 100%;
-    background-color: rgba(233,233,233,0.8);
+.a-part a {
+  font-family: "Montserrat", sans-serif;
+  background-color: none;
+  color: white;
+  width: 135px;
+  height: 50px;
+  margin: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid rgba(233, 233, 233, 0.4);
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
 }
 
-
-.a-part a:hover{
-    border: 2px solid rgba(233,233,233);
-    color: black;
+.source-code-btn:after {
+  content: "SOURCE CODE";
+  position: absolute;
+  transition: 0.5s ease all;
 }
 
-
-footer{
-    background-color: 	#101218ef;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.social-icons{
-    padding: 30px;
+.live-demo-btn:after {
+  content: "LIVE DEMO";
+  position: absolute;
+  transition: 0.5s ease all;
 }
 
-.social-icons a{
-  
-    color: black;
-    margin: 0px 6px;
-    height: 45px;
-    width: 45px; 
-    font-size: 30px;
-    padding: 10px;
-    background-color: white;
-    position: relative;
-    transition: 0.5s ease all;
-    border-radius: 10px;
-    
- 
+.bg {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(233, 233, 233, 0.4);
+  width: 0px;
+  height: 100%;
+  transform: skewX(45deg);
+  transition: 0.5s ease all;
 }
 
-.social-icons a i{
-    transition: 0.5s ease all;
+.a-part a:hover .bg {
+  width: 100%;
+  background-color: rgba(233, 233, 233, 0.8);
+}
+
+.a-part a:hover {
+  border: 2px solid rgba(233, 233, 233);
+  color: black;
+}
+
+footer {
+  background-color: #101218ef;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons {
+  padding: 30px;
+}
+
+.social-icons a {
+  color: black;
+  margin: 0px 6px;
+  height: 45px;
+  width: 45px;
+  font-size: 30px;
+  padding: 10px;
+  background-color: white;
+  position: relative;
+  transition: 0.5s ease all;
+  border-radius: 10px;
+}
+
+.social-icons a i {
+  transition: 0.5s ease all;
 }
 .social-icons a:hover i {
-    transform: translateY(-6px);
- 
+  transform: translateY(-6px);
 }
-
-
-
-
-
-
