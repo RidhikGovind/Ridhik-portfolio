@@ -8,6 +8,10 @@ body {
   max-width: 100vw;
   height: 100vh;
   font-family: "Oxygen", sans-serif;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .home {
@@ -16,6 +20,8 @@ body {
   padding: 3em 2em 15em 2em;
   color: #fbf7f5;
   font-weight: 900;
+  height: 100vh;
+  position: relative;
 }
 
 .introOne {
@@ -45,27 +51,23 @@ body {
 }
 
 .angle-down {
-  position: relative;
-  text-align: center;
-}
-
-.angle-down i {
   position: absolute;
-  top: 500px;
+  bottom: 10%;
+  left: 50%;
   animation: move 3s infinite;
 }
 
 @keyframes move {
   0% {
-    top: 180px;
+    bottom: 10%;
   }
 
   50% {
-    top: 160px;
+    bottom: 15%;
   }
 
   100% {
-    top: 180px;
+    bottom: 10%;
   }
 }
 
@@ -89,16 +91,16 @@ body {
   margin: 0;
 }
 
-@media(max-width: 720px) {
-    .about{
-        padding: 30px 50px;
-    }
+@media (max-width: 720px) {
+  .about {
+    padding: 30px 50px;
+  }
 }
 
-@media(max-width: 460px ) {
-    .about {
-        padding: 30px 30px;
-    }
+@media (max-width: 460px) {
+  .about {
+    padding: 30px 30px;
+  }
 }
 
 .palm {
@@ -135,8 +137,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 15px 15px;
   }
-
-  
 }
 
 .skill-icons i {
