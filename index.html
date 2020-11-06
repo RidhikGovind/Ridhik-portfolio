@@ -2,52 +2,73 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keyword"
+        content="ridhikgovind, Ridhik Govind,front end developer,javascript,react, developer, css , html" />
+    <meta name="description" content="portfolio of ridhikgovind - front end developer" />
+    <meta name="author" content="ridhikgovind" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/7d5b392920.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="https://www.logolynx.com/images/logolynx/ef/efbc66f3e6c4cb5988e3dc301a7d23f1.jpeg" type="image/x-icon">
-    <title>RidhikGovind</title>
-
+    <title>RidhikGovind - Front End Developer</title>
 </head>
 
 <body>
+    <header>
+        <div class="menu-container">
+            <label>
+                <input type="checkbox" />
+                <span id="menu" class="menu">
+                    <span class="hamburger"></span>
+                </span>
 
-    <div class="home">
-        <div class="introOne">
-            <span class="hello">Hello</span><br>
-            <span>I am <span class="name">Ridhik.</span></span>
+                <ul id="menuContent">
+                    <li>
+                        <a class="home-menu" href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </label>
         </div>
-        <div class="introTwo">
-            <span>I love to code and create web apps and websites.</span>
+    </header>
+
+    <section id="home">
+        <h1>Hello</h1>
+        <h2>I'm <span class="my-name-home">Ridhik</span></h2>
+        <h3>I love to code and design web apps and websites.</h3>
+
+        <img class="waves-home" src="icon/waves.png" alt="" />
+    </section>
+    <section id="about">
+        <img class="waves-about" src="icon/waves.png" alt="" />
+
+        <div class="about-content">
+            <h2>About me</h2>
+            <h3>
+                My name is <span class="my-name">Ridhik Govind,</span> A Self-taught
+                Front-End Developer based in Kochi,India
+                <img class="palm" src="icon/palm.png" /> . One of the things that I
+                love about coding is that I get to create stuff from scratch and just
+                watch it evolve into something amazing. <br />
+                Currently I am looking for an opportunity where I can build amazing
+                things together as well as foster my creativity.
+            </h3>
         </div>
-
-        <div class="angle-down">
-            <div class="angle-logo"><i class="fas fa-angle-double-down fa-2x"></i></div>
-        </div>
-
-    </div>
-
-
-    <div class="about">
-        <h2>ABOUT ME</h2>
-        <p>My name is <span class="name">Ridhik Govind</span>, A Self-taught Web Developer based in
-            Kochi,India
-            <img class="palm" src="images/palm.png">.
-            One of the things that I love about coding is that I get to create stuff from scratch
-            and just watch it evolve into something amazing. I am also interested in learning various tech stacks as it
-            helps me broaden my skill set.<br><br>
-            Designing is also something that I am learning together with coding. It really helps me to explore both my
-            creative and
-            problem solving side.
-            Currently, I am looking for an opportunity to work, where I can collaborate, continuously learn and create
-            things together.
-        </p>
-    </div>
-    <div class="skills">
-        <h2>SKILLS</h2>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
         <div class="skill-icons">
             <div><i class="fab icons fa-html5 fa-3x"></i>HTML</div>
             <div><i class="fab icons fa-css3-alt fa-3x"></i>CSS</div>
@@ -55,92 +76,127 @@
             <div><i class="fab icons fa-react fa-3x"></i>REACT</div>
             <div><i class="fab icons fa-sass fa-3x"></i>SASS</div>
             <div><i class="fab icons fa-bootstrap fa-3x"></i>BOOTSTRAP</div>
+            <div><i class="fab icons fa-git fa-3x"></i>GIT</div>
+            <div><i class="fab icons fa-github fa-3x"></i>GITHUB</div>
+            <div><i class="fab icons fa-npm fa-3x"></i>NPM</div>
         </div>
-    </div>
-    <div class="projects">
-        <h2>PROJECTS</h2>
-        <div class="project-list">
-            <div class="weather-app" data-tilt data-tilt-scale="1.03">
-                <img src="images/weather.png" />
-                <div class="a-part">
-                    <a href="https://github.com/RidhikGovind/Weather-app" class="source-code-btn">
-                        <div class="bg"></div>
-                    </a>
-                    <a href="https://weatherappisgood.netlify.app" class="live-demo-btn">
-                        <div class="bg"></div>
-                    </a>
-                </div>
-            </div>
-            <div class="budget-app" data-tilt data-tilt-scale="1.03">
-                <img src="images/budget.png" />
-                <div class="a-part">
-                    <a href="https://github.com/RidhikGovind/Budget-app" class="source-code-btn">
-                        <div class="bg"></div>
-                    </a>
-                    <a href="https://mybudgetapp101.netlify.app/" class="live-demo-btn">
-                        <div class="bg"></div>
-                    </a>
-                </div>
-            </div>
-            <div class="notepad-app" data-tilt data-tilt-scale="1.03">
-                <img src="images/notepad.png" />
-                <div class="a-part">
-                    <a href="https://github.com/RidhikGovind/Yellow-Notepad" class="source-code-btn">
-                        <div class="bg"></div>
-                    </a>
-                    <a href="https://yellow-notepad.netlify.app" class="live-demo-btn">
-                        <div class="bg"></div>
-                    </a>
-                </div>
-            </div>
-            <div class="gifymonster" data-tilt data-tilt-scale="1.03">
-                <img src="https://github.com/RidhikGovind/gifymonster/raw/master/demo/gifymonstercover.png" />
-                <div class="a-part">
-                    <a href="https://github.com/RidhikGovind/gifymonster" class="source-code-btn">
-                        <div class="bg"></div>
-                    </a>
-                    <a href=" https://gifymonster.netlify.app" class="live-demo-btn">
-                        <div class="bg"></div>
-                    </a>
-                </div>
-            </div>
-            <div class="business-website" data-tilt data-tilt-scale="1.03">
-                <img src="images/website.png" />
-                <div class="a-part">
-                    <a href="https://github.com/RidhikGovind/Business-Website" class="source-code-btn">
-                        <div class="bg"></div>
-                    </a>
-                    <a href="https://b-website.netlify.app" class="live-demo-btn">
-                        <div class="bg"></div>
-                    </a>
-                </div>
-            </div>
-            <div class="shopping-cart" data-tilt data-tilt-scale="1.03">
-                <img src="images/shop.png" />
-                <div class="a-part">
-                    <a href="https://github.com/RidhikGovind/SleekShoppingCart" class="source-code-btn">
-                        <div class="bg"></div>
-                    </a>
-                    <a href="https://sleekshoppingcart.netlify.app/" class="live-demo-btn">
-                        <div class="bg"></div>
-                    </a>
-                </div>
-            </div>
+    </section>
 
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="p-grid">
+            <div class="p-container zoom todofy">
+                <div class="p-desc">
+                    <h2>Todofy</h2>
+                    <h3>The mandatory to-do app.</h3>
+                    <div class="made-with">
+                        <div class="made-with-item">React</div>
+                        <div class="made-with-item">HTML</div>
+                        <div class="made-with-item">CSS</div>
+                    </div>
+                    <div class="p-links">
+                        <a class="source-code" href="https://github.com/RidhikGovind/Todofy"> Source Code</a>
+                        <a class="live-demo" href="https://react-todofy.netlify.app/">Live Demo</a>
+                    </div>
+                </div>
+                <div class="p-photo"></div>
+            </div>
+            <div class="p-container zoom moovieClick">
+                <div class="p-desc">
+                    <h2>MoovieClick</h2>
+                    <h3>The mandatory to-do app.</h3>
+                    <div class="made-with">
+                        <div class="made-with-item">React</div>
+                        <div class="made-with-item">HTML</div>
+                        <div class="made-with-item">CSS</div>
+                    </div>
+                    <div class="p-links">
+                        <a class="source-code" href="https://github.com/RidhikGovind/mooovieClick">Source Code</a>
+                        <a class="live-demo" href="https://mooovieclick.netlify.app/">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="p-container zoom gifyMonster">
+                <div class="p-desc">
+                    <h2>Gifymonster</h2>
+                    <h3>The mandatory to-do app.</h3>
+                    <div class="made-with">
+                        <div class="made-with-item">React</div>
+                        <div class="made-with-item">HTML</div>
+                        <div class="made-with-item">CSS</div>
+                    </div>
+                    <div class="p-links">
+                        <a class="source-code" href="https://github.com/RidhikGovind/gifymonster">Source Code </a>
+                        <a class="live-demo" href="https://gifymonster.netlify.app/">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="p-container zoom funkyLogin">
+                <div class="p-desc">
+                    <h2>Funky Login</h2>
+                    <h3>The mandatory to-do app.</h3>
+                    <div class="made-with">
+                        <div class="made-with-item">React</div>
+                        <div class="made-with-item">HTML</div>
+                        <div class="made-with-item">CSS</div>
+                    </div>
+                    <div class="p-links">
+                        <a class="source-code" href="https://github.com/RidhikGovind/Funky-login-app">Source Code</a>
+                        <a class="live-demo" href="https://funkylogin.herokuapp.com/">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="p-container zoom happyShop">
+                <div class="p-desc">
+                    <h2>Happy Shop</h2>
+                    <h3>The mandatory to-do app.</h3>
+                    <div class="made-with">
+                        <div class="made-with-item">React</div>
+                        <div class="made-with-item">HTML</div>
+                        <div class="made-with-item">CSS</div>
+                    </div>
+                    <div class="p-links">
+                        <a class="source-code" href="https://github.com/RidhikGovind/SleekShoppingCart">Source Code</a>
+                        <a class="live-demo" href="https://sleekshoppingcart.netlify.app/">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="p-container zoom hospital">
+                <div class="p-desc">
+                    <h2>Hospital Issue Tracker</h2>
+                    <h3>The mandatory to-do app.</h3>
+                    <div class="made-with">
+                        <div class="made-with-item">React</div>
+                        <div class="made-with-item">HTML</div>
+                        <div class="made-with-item">CSS</div>
+                    </div>
+                    <div class="p-links">
+                        <a class="source-code" href="https://github.com/RidhikGovind/Hospital-Issue-Tracker">Source
+                            Code</a>
+                        <a class="live-demo" href="https://hospital-issue-tracker.netlify.app/">Live Demo</a>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-    </div>
-    <footer>
+    <section id="contact">
+        <h2>Get in touch with me</h2>
+
         <div class="social-icons">
             <a class="icon" href="https://github.com/RidhikGovind"><i class="fab fa-github"></i></a>
             <a href="https://codepen.io/ridzman"><i class="fab fa-codepen"></i></a>
             <a href="https://www.linkedin.com/in/ridhik-govind-0384651b1/"><i class="fab fa-linkedin-in"></i></a>
             <a href="https://twitter.com/fluffyridz"><i class="fab fa-twitter"></i></a>
+            <a href="https://dev.to/ridhikgovind"><i class="fab fa-dev"></i></a>
+
         </div>
-    </footer>
 
-    <script src="vanilla-tilt.js"></script>
 
+    </section>
 </body>
+
+<script src="index.js"></script>
 
 </html>
