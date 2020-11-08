@@ -362,9 +362,7 @@ ul {
   transition: 0.5s ease all;
 }
 
-.zoom:hover {
-  background-position: 80% 80%;
-}
+
 
 /* *****specific background images****** */
 
