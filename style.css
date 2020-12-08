@@ -14,7 +14,7 @@ body {
   overflow-x: hidden;
 }
 
-h2{
+h2 {
   font-size: 2rem;
 }
 header {
@@ -94,7 +94,7 @@ input:checked + .menu {
 input:checked + .menu .hamburger {
   transform: rotate(45deg);
   background-color: #05a3ff;
-  
+
   width: 40px;
   height: 3px;
 }
@@ -125,7 +125,6 @@ ul {
   opacity: 0;
   transition: 0.2s ease-in-out;
   list-style-type: none;
-  
 }
 
 .hide {
@@ -237,10 +236,9 @@ ul {
   position: relative;
   color: var(--navy-blue-primary);
   z-index: -200;
-  
 }
 
-.blank-div{
+.blank-div {
   height: 100px;
   width: 100%;
   /* border: 2px solid black; */
@@ -249,7 +247,7 @@ ul {
   left: 0;
   background: rgba(253, 253, 253, 0.144);
   background-blend-mode: lighten;
-  border-top: 30px solid rgba(245, 245, 245, 0.157)
+  border-top: 30px solid rgba(245, 245, 245, 0.157);
 }
 .waves-about {
   position: absolute;
@@ -276,7 +274,6 @@ ul {
   line-height: 2rem;
   padding: 0 3rem;
   padding-top: 5rem;
-  
 }
 
 #about h2 {
@@ -303,7 +300,6 @@ ul {
   text-align: center;
   margin-top: 2rem;
 }
-
 
 .skill-icons div {
   color: whitesmoke;
@@ -371,8 +367,6 @@ ul {
   transition: 0.5s ease all;
 }
 
-
-
 /* *****specific background images****** */
 
 .todofy {
@@ -394,8 +388,8 @@ ul {
 .happyShop {
   background-image: url("https://github.com/RidhikGovind/SleekShoppingCart/blob/master/images/HappyShop-Webapp.png?raw=true");
 }
-.hospital {
-  background-image: url("https://github.com/RidhikGovind/Hospital-Issue-Tracker/blob/master/Hospital-Issue-Tracker-min.png?raw=true");
+.prettyCover {
+  background-image: url("https://github.com/RidhikGovind/PrettyCover/blob/master/icons/PrettyCover-screenshot.png?raw=true");
 }
 .p-container:after {
   position: absolute;
