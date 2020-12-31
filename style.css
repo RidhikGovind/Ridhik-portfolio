@@ -272,7 +272,6 @@ ul {
   top: 25%;
   padding: 0 2rem;
   line-height: 2rem;
-  padding: 0 3rem;
   padding-top: 5rem;
 }
 
@@ -314,6 +313,12 @@ ul {
 
 .skill-icons {
   display: grid;
+}
+
+@media (min-width: 900px) {
+  .about-content {
+    margin: 0 10rem;
+  }
 }
 
 @media (min-width: 710px) {
@@ -385,8 +390,8 @@ ul {
   background-image: url("https://github.com/RidhikGovind/Funky-login-app/blob/master/demo/Database-Login-app.png?raw=true");
 }
 
-.happyShop {
-  background-image: url("https://github.com/RidhikGovind/SleekShoppingCart/blob/master/images/HappyShop-Webapp.png?raw=true");
+.spotifyplayground {
+  background-image: url("https://github.com/RidhikGovind/spotify-playground/blob/master/client/screenone.png?raw=true");
 }
 .prettyCover {
   background-image: url("https://github.com/RidhikGovind/PrettyCover/blob/master/icons/PrettyCover-screenshot.png?raw=true");
